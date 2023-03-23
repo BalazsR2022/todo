@@ -1,0 +1,23 @@
+/*
+* File: style.css
+* Author: Balázs Réka
+* Copyright: 2023, Balázs Réka
+* Group: Szoft I
+* Date: 2023-03-23
+* Github: https://github.com/BalazsR2022/
+* Licenc: GNU GPL
+*/
+
+
+.about{
+    border-top: solid 3px red;
+    border-bottom: solid 3px green;
+    text-align: center;
+    position: fixed;
+    top:100px;
+    right:-230px;
+    width: 600px;
+    transform: rotate(45deg);
+
+
+}
