@@ -1,0 +1,10 @@
+{
+    "kolcsonzesek": [
+        { "id": 1, "kolcsonzokId": 1, "iro":"J.K. Rowling", "mufaj" :"Fantasy", "cim":"Harry Potter és a Bölcsek Köve","ready": "true "},
+        { "id": 2, "kolcsonzokId": 2, "iro":"Agatha Christie", "mufaj" :"Krimi", "cim":"Harry Potter és a Bölcsek Köve","ready": "true "},
+        { "id": 3, "kolcsonzokId": 3, "iro":"George Orwell", "mufaj" :"Dystópia", "cim":"1984","ready": "true "},
+        { "id": 4, "kolcsonzokId": 4, "iro":"Harper Lee", "mufaj" :"Regény", "cim":"Ne bántsátok a feketerigót!","ready": "true "}
+       
+      
+    ]
+}

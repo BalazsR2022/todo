@@ -2,13 +2,11 @@
 /*
 * File: app.js
 * Author: Balázs Réka
-* Copyright: 2023, Balázs Réka
-* Group: Szoft I
-* Date: 2023-03-23
-* Github: https://github.com/BalazsR2022/
+* Copyright: 2024, Balázs Réka
+* Group: Szoft II
+* Date: 2024-04-13
 * Licenc: GNU GPL
 */
-
 
 const doc = {
     tbody: document.querySelector('#tbody')
@@ -16,34 +14,32 @@ const doc = {
 
 const state ={
     host: 'http://localhost:8000/',
-    todos:[]
+    kolcsonzesek:[]
 };
-getTodos();
-function getTodos(){
-    let url = state.host + 'todos';
+getKolcsonzesek();
+function getKolcsonzesek(){
+    let url = state.host + 'kolcsonzesek';
     fetch(url)
     .then(response => response.json())
     .then(result => {
-        
-        state.todos = result;
+        state.kolcsonzesek = result;
         render();
-
     });
 }
 
 function render(){
     let rows = '';
-    state.todos.forEach( (todo) => {
+    state.kolcsonzesek.forEach((kolcsonzes) => {
         rows += `
             <tr>
-                <td>${todo.id}</td>
-                <td>${todo.name}</td>
-                <td>${todo.ready}</td>
+                <td>${kolcsonzes.id}</td>
+                <td>${kolcsonzes.kolcsonzokId}</td>
+                <td>${kolcsonzes.iro}</td>
+                <td>${kolcsonzes.mufaj}</td>
+                <td>${kolcsonzes.cim}</td>
             </tr>
-
         `;
-        
     });
     doc.tbody.innerHTML = rows;
-
 }
+
