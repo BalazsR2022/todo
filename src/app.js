@@ -1,6 +1,6 @@
 
 /*
-* File: app.js
+* File: app.js 
 * Author: Balázs Réka
 * Copyright: 2024, Balázs Réka
 * Group: Szoft II

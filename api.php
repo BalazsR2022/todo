@@ -4,7 +4,7 @@ $servername = "localhost";
 $username = "username";
 $password = "password";
 $dbname = "todo_database";
-
+ 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 
