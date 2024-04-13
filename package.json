@@ -1,7 +1,6 @@
 {
   "name": "kolcsonzok",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +16,14 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalazsR2022/todo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BalazsR2022/todo/issues"
+  },
+  "homepage": "https://github.com/BalazsR2022/todo#readme",
+  "description": ""
 }
